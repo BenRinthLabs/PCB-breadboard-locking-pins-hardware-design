@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "header-locking")(type "KiCad")(uri "C:/Projects/Github/PCB-breadboard-locking-pins-hardware-design/CAD/Libs/header-locking.pretty")(options "")(descr ""))
+)

@@ -1,40 +1,39 @@
-# PCB breadboard/protoboard Hardware design
+# PCB breadboard for Solder Sidekick – Based on Soldered Electronics Design
 
-## About the product
+![PCB breadboard/protoboard](./OUTPUTS/V1.1.1-Locking/screenshot.png)
 
-| ![PCB breadboard/protoboard](https://github.com/SolderedElectronics/PCB-breadboard-hardware-design/blob/main/OUTPUTS/V1.1.1/333031.jpg?raw=true) |
-| :----------------------------------------------------------: |
-|      [Buy PCB breadboard/protoboard](https://www.solde.red/333031)      |
+This repository contains a modified version of the **PCB breadboard/protoboard** by [Soldered Electronics](https://www.soldered.com), reused with permission under the **TAPR Open Hardware License (OHL v1.0)**.
 
-This PCB is also a breadboard. It offers both the simplicity and the functionality of a breadboard. It is the same size as the modular half-size breadboard and has the same connections to pins. The board allows you to make the temporary circuit from the breadboard permanent.
+We’re using this board design as a **demonstration platform** for the [Solder Sidekick](https://soldersidekick.com) — an open hardware kit that converts an Ender 3 3D printer into a hands-free through-hole soldering robot.
 
-## Repository contents
+## ✅ Modifications & Attribution
 
-All Soldered Electronics hardware designed in KiCAD, and repositories are organized in the following way:
+We’ve made the following changes:
 
-- CAD folder - contains KiCAD files (Schematics, Board, Panel Board), sorted by version. Change log lists all changes between versions.
-- OUTPUTS - contains useful files, such as Bill of Materials (BOM), PDF of schematics, 3D .step file of the board and gerber files, sorted by version. 
-- OUTPUTS -> Compliance - Certificates and useful legal stuff. 
+- Replaced the original silkscreen logo with the **Solder Sidekick** branding
+- Replaced footprints with offset ["locking pins"](https://web.archive.org/web/20241003224515/https://www.sparkfun.com/tutorials/114)
+- Exported gerber files and drill files
 
-## Want to contribute?
+See [`Change Log.xlsx`](./CAD/Change%20Log.xlsx) for a detailed list of changes.
 
-Please feel free to submit a pull request if you have any contributions. We encourage you to submit an issue or pull request if you find a bug. 
+All original copyrights and license information are preserved.  
+The original version of this README is archived as [`README_original.md`](./README_original.md).
 
-## About Soldered
+## 📎 License
 
-<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-Generic-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
+This project is licensed under the [TAPR Open Hardware License v1.0](./LICENSE.TXT).  
+All modifications are also released under the same license.
 
-At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
+## 🙏 Credit
 
-- [Web Store](https://www.soldered.com/shop)
-- [Tutorials & Projects](https://soldered.com/learn)
-- [Community & Technical support](https://soldered.com/community)
+Original design by **Soldered Electronics**  
+Visit their site for more great open hardware: [https://www.soldered.com](https://www.soldered.com)
 
-## License info
+---
 
-All Soldered open-source hardware (OSH) is under The TAPR Open Hardware License. Read more in the LICENSE file. 
+## ℹ️ More Info
 
-No warranty - all designs in this repository are distributed in the hope that they will be useful, but without any warranty. They are provided "AS IS", therefore without warranty of any kind, either expressed or implied. The entire quality and performance of what you do with the contents of this repository are your responsibility. In no event, Soldered Electronics will be liable for your damages, losses, including any general, special, incidental or consequential damage arising out of the use or inability to use the contents of this repository. 
+Learn more about the Solder Sidekick project at:  
+🌐 [https://soldersidekick.com](https://soldersidekick.com)
 
-## Have fun! 
-And thank you from your fellow makers at Soldered Electronics.
+Have fun, and keep it open!
