@@ -21,7 +21,7 @@ The original version of this README is archived as [`README_original.md`](./READ
 
 ## 📎 License
 
-This project is licensed under the [TAPR Open Hardware License v1.0](./LICENSE.TXT).  
+This project is licensed under the [TAPR Open Hardware License v1.0](./LICENSE.md).  
 All modifications are also released under the same license.
 
 ## 🙏 Credit
